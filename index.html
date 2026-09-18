@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#070605">
+  <meta name="description" content="Diamond Empire — Luxury Scents. Timeless Impression.">
+  <style id="critical-theme">html,body{margin:0;min-height:100%;background:#060504;color:#f1ebdf}body{overflow-x:hidden}</style>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=11">
+  <title>Diamond Empire | Luxury Scents</title>
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.8"/><path d="m16.2 16.2 4.3 4.3"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6.2 8.2h11.6l1 11.2H5.2l1-11.2Z"/><path d="M8.6 8.2V6.9a3.4 3.4 0 0 1 6.8 0v1.3"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.2 8.7c0 5.1-8.2 10-8.2 10s-8.2-4.9-8.2-10A4.5 4.5 0 0 1 8.4 4c1.5 0 2.8.7 3.6 1.8A4.4 4.4 0 0 1 15.6 4a4.6 4.6 0 0 1 4.6 4.7Z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13"/><path d="m13 6 6 6-6 6"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 2 1.9 6.1L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.9L12 2Z"/><path d="m19 16 .7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7L19 16Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 11.5a7.6 7.6 0 0 1-8 7.5 8.2 8.2 0 0 1-3.7-.8L4 20l1.3-3.8A7.1 7.1 0 0 1 4 11.5 7.6 7.6 0 0 1 12 4a7.6 7.6 0 0 1 8 7.5Z"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3zM14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="18" cy="18" r="1.8"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 3 7 3v5c0 4.7-2.8 8-7 10-4.2-2-7-5.3-7-10V6l7-3Z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-bottle" viewBox="0 0 24 24"><path d="M9 5h6v3l2 2v9H7v-9l2-2V5Z"/><path d="M10 3h4M9 8h6"/></symbol>
+    <symbol id="i-oil" viewBox="0 0 24 24"><path d="M12 3c3.2 4 5 6.5 5 10a5 5 0 0 1-10 0c0-3.5 1.8-6 5-10Z"/><path d="M9 14c.3 1.4 1.3 2.3 2.8 2.5"/></symbol>
+    <symbol id="i-mist" viewBox="0 0 24 24"><path d="M8 7h8v12H8zM10 4h4v3h-4zM14 5h4l1 2h-5"/></symbol>
+    <symbol id="i-roll" viewBox="0 0 24 24"><path d="M9 8h6v11H9zM10 5h4v3h-4zM10 3h4v2h-4z"/></symbol>
+  </svg>
+
+  <div class="announcement">
+    <span class="announce-dot"></span>LUXURY SCENTS
+    <span class="announce-line"></span>TIMELESS IMPRESSION
+    <span class="announce-line"></span>NATIONWIDE DELIVERY
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Diamond Empire home">
+      <div class="brand-mark-wrap">
+        <img class="brand-mark" src="assets/logo.png" alt="Diamond Empire logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+        <span class="logo-fallback">DE</span>
+      </div>
+      <div class="brand-text"><span>DIAMOND</span><span>EMPIRE</span></div>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#story">Our Story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search"><svg><use href="#i-search"></use></svg></button>
+      <button class="bag-btn" id="bagBtn" aria-label="Open shopping bag"><svg><use href="#i-bag"></use></svg><span>Bag</span><span class="bag-count" id="bagCount">0</span></button>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><svg><use href="#i-menu"></use></svg></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home <svg><use href="#i-arrow"></use></svg></a>
+    <a href="#shop">Shop <svg><use href="#i-arrow"></use></svg></a>
+    <a href="#collections">Collections <svg><use href="#i-arrow"></use></svg></a>
+    <a href="#story">Our Story <svg><use href="#i-arrow"></use></svg></a>
+    <a href="#contact">Contact <svg><use href="#i-arrow"></use></svg></a>
+  </div>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="hero-kicker"><span></span>THE HOUSE OF DIAMOND EMPIRE<span></span></div>
+        <h1>Make an<br><em>entrance.</em></h1>
+        <p class="hero-sub">Elevated perfumes, oils and beauty essentials curated for the moments you want to be remembered.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#shop">Shop fragrances <svg><use href="#i-arrow"></use></svg></a>
+          <a class="btn btn-ghost" href="#collections">Explore collections <svg><use href="#i-arrow"></use></svg></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-icon"><svg><use href="#i-spark"></use></svg></span><span><strong>Curated selection</strong><small>Statement + everyday scents</small></span></div>
+          <div><span class="meta-icon"><svg><use href="#i-chat"></use></svg></span><span><strong>Personal ordering</strong><small>Direct WhatsApp assistance</small></span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-side-label">DIAMOND EMPIRE <span>EST.</span></div>
+        <div class="hero-ring ring-a"></div><div class="hero-ring ring-b"></div><div class="hero-orbit"></div>
+        <div class="hero-image-frame">
+          <div class="hero-image-inner">
+            <img src="assets/hero.jpg" alt="Diamond Empire luxury fragrance campaign" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+            <div class="hero-image-fallback"><span>DIAMOND EMPIRE</span><strong>LUXURY<br>SCENTS</strong><small>ADD YOUR HERO IMAGE</small></div>
+            <div class="hero-caption"><span>01</span><div><strong>The Signature Edit</strong><small>A fragrance for evenings that deserve an impression.</small></div></div>
+          </div>
+        </div>
+        <div class="hero-badge"><span class="badge-star">✦</span><span><strong>SCENT, REFINED</strong><small>Luxury in every detail</small></span></div>
+      </div>
+      <div class="hero-scroll"><span>SCROLL TO DISCOVER</span><i></i></div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="trust-item"><span class="trust-icon"><svg><use href="#i-spark"></use></svg></span><span><strong>Luxury selection</strong><small>Curated fragrance wardrobe</small></span><b>01</b></div>
+      <div class="trust-item"><span class="trust-icon"><svg><use href="#i-truck"></use></svg></span><span><strong>Nationwide delivery</strong><small>Order from anywhere in Nigeria</small></span><b>02</b></div>
+      <div class="trust-item"><span class="trust-icon"><svg><use href="#i-chat"></use></svg></span><span><strong>Personal support</strong><small>Fast ordering on WhatsApp</small></span><b>03</b></div>
+    </section>
+
+    <section class="section collections-section" id="collections"><div class="section-aura"></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">SHOP BY CATEGORY</p><h2>Find your signature.</h2></div>
+        <a class="text-link" href="#shop">View all products <svg><use href="#i-arrow"></use></svg></a>
+      </div>
+
+      <div class="collection-grid">
+        <button class="collection-card" data-category="Perfumes">
+          <span class="collection-icon"><svg><use href="#i-bottle"></use></svg></span><span class="collection-index">01</span>
+          <span class="collection-copy"><h3>Perfumes</h3><p>Statement fragrances for memorable entrances.</p></span>
+          <span class="collection-link">Explore collection <svg><use href="#i-arrow"></use></svg></span>
+        </button>
+        <button class="collection-card" data-category="Perfume Oil">
+          <span class="collection-icon"><svg><use href="#i-oil"></use></svg></span><span class="collection-index">02</span>
+          <span class="collection-copy"><h3>Perfume Oils</h3><p>Concentrated scents made for close-to-skin luxury.</p></span>
+          <span class="collection-link">Explore collection <svg><use href="#i-arrow"></use></svg></span>
+        </button>
+        <button class="collection-card" data-category="Body Mists">
+          <span class="collection-icon"><svg><use href="#i-mist"></use></svg></span><span class="collection-index">03</span>
+          <span class="collection-copy"><h3>Body Mists</h3><p>Soft, easy fragrance for your everyday refresh.</p></span>
+          <span class="collection-link">Explore collection <svg><use href="#i-arrow"></use></svg></span>
+        </button>
+        <button class="collection-card" data-category="Body Care">
+          <span class="collection-icon"><svg><use href="#i-roll"></use></svg></span><span class="collection-index">04</span>
+          <span class="collection-copy"><h3>Body Care</h3><p>Roll-ons, body sprays and finishing touches.</p></span>
+          <span class="collection-link">Explore collection <svg><use href="#i-arrow"></use></svg></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="shop-panel" id="shop"><div class="shop-edge-label">CURATED • 2026</div>
+      <div class="section shop-section">
+        <div class="shop-topline">
+          <div><p class="eyebrow">THE EDIT</p><h2>Featured fragrances.</h2></div>
+          <div class="shop-note"><span>✦</span>Curated for everyday luxury</div>
+        </div>
+        <div class="filters-wrap">
+          <div class="filters" role="tablist" aria-label="Product categories">
+            <button class="filter active" data-filter="All">All pieces</button>
+            <button class="filter" data-filter="Perfumes">Perfumes</button>
+            <button class="filter" data-filter="Perfume Oil">Perfume Oil</button>
+            <button class="filter" data-filter="Body Mists">Body Mists</button>
+            <button class="filter" data-filter="Body Care">Body Care</button>
+          </div>
+          <span class="results-count" id="resultsCount"></span>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="statement"><div class="statement-orbit"></div>
+      <div class="statement-inner">
+        <span class="quote-mark">“</span><p class="eyebrow">THE DIAMOND EMPIRE STANDARD</p>
+        <blockquote>Luxury is the feeling that lingers after the fragrance has passed.</blockquote>
+        <a href="#shop" class="btn btn-outline-gold">Shop signature scents <svg><use href="#i-arrow"></use></svg></a>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="story-media">
+        <div class="story-image">
+          <img src="assets/brand-founder.jpg" alt="Diamond Empire brand founder" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';">
+          <div class="image-fallback">ADD<br>FOUNDER<br>PHOTO</div>
+          <div class="story-stamp">DE<small>EST.</small></div>
+        </div>
+      </div>
+      <div class="story-copy">
+        <p class="eyebrow">THE HOUSE OF DIAMOND EMPIRE</p>
+        <h2>A fragrance wardrobe made to feel personal.</h2>
+        <p>Diamond Empire brings together elevated scents and everyday fragrance essentials for women and men who want to smell intentional, distinctive and unforgettable.</p>
+        <p>From statement perfumes to practical roll-ons and body mists, every piece is selected to fit real life while keeping a luxury finish.</p>
+        <div class="story-signature"><span></span><div><strong>Diamond Empire</strong><small>Luxury Scents • Timeless Impression</small></div></div>
+        <a href="#contact" class="text-link">Talk to Diamond Empire <svg><use href="#i-arrow"></use></svg></a>
+      </div>
+    </section>
+
+    <section class="private-shopping"><div class="private-edge">PERSONAL SHOPPING</div>
+      <div class="private-inner">
+        <div>
+          <p class="eyebrow">PRIVATE SHOPPING</p>
+          <h2>Tell us the mood.<br><em>We'll match the scent.</em></h2>
+          <p>Share the occasion, scent family and budget. Diamond Empire can help you narrow the collection before you order.</p>
+        </div>
+        <a class="btn btn-gold" id="consultBtn" href="#">Start a fragrance chat <svg><use href="#i-chat"></use></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <div class="product-modal" id="productModal" aria-hidden="true">
+    <div class="product-modal-card">
+      <button class="close-btn modal-close" id="closeProductModal" aria-label="Close product details"><svg><use href="#i-x"></use></svg></button>
+      <div class="modal-media"><img id="modalProductImage" alt=""><div class="product-modal-fallback" id="modalFallback">DE</div></div>
+      <div class="modal-copy">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h3 id="modalName"></h3>
+        <p id="modalDesc"></p>
+        <div class="modal-price" id="modalPrice"></div>
+        <div class="modal-actions"><button class="btn btn-gold" id="modalAdd">Add to bag <svg><use href="#i-bag"></use></svg></button><button class="btn btn-ghost" id="modalWhatsApp">Ask on WhatsApp <svg><use href="#i-chat"></use></svg></button></div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer" id="contact">
+    <div class="footer-brand"><div class="footer-logo">
+      <img src="assets/logo.png" alt="Diamond Empire" onerror="this.style.display='none';this.nextElementSibling.style.display='grid';"><span>DE</span>
+    </div><p>LUXURY SCENTS.<br>TIMELESS IMPRESSION.</p></div>
+    <div class="footer-col"><h4>Shop</h4><a href="#shop">Perfumes</a><a href="#shop">Perfume Oil</a><a href="#shop">Body Mists</a><a href="#shop">Body Care</a></div>
+    <div class="footer-col"><h4>Contact</h4><a id="whatsappLink" href="#" target="_blank" rel="noopener">WhatsApp: 08143331161</a><a href="tel:08033068785">Call: 08033068785</a><span>Oke Aro</span></div>
+    <div class="footer-col"><h4>Social</h4><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok: Diva pride1</a><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook: Asa method</a></div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Diamond Empire. All rights reserved.</span><span>Luxury Scents • Timeless Impression</span></div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-panel">
+      <button class="close-btn" id="closeSearch" aria-label="Close search"><svg><use href="#i-x"></use></svg></button>
+      <p class="eyebrow">SEARCH THE COLLECTION</p><h3>Find your next signature.</h3>
+      <input id="searchInput" type="search" placeholder="Search perfumes, oils, mists..." autocomplete="off">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-header"><div><p class="eyebrow">YOUR BAG</p><h3>Diamond Empire</h3><small>Review your pieces before ordering.</small></div>
+      <button type="button" class="close-btn modal-close cart-close" id="closeCart" aria-label="Close shopping bag" onclick="window.closeDiamondCart(event)"><svg><use href="#i-x"></use></svg></button>
+    </div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-footer"><div class="cart-total"><span>Subtotal</span><strong id="cartTotal">₦0</strong></div>
+      <button class="btn btn-gold full" id="checkoutBtn">Continue on WhatsApp <svg><use href="#i-chat"></use></svg></button>
+      <p class="cart-note">Delivery fee and payment details are confirmed directly with Diamond Empire on WhatsApp.</p>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+  <div class="overlay" id="pageOverlay"></div>
+  <script src="script.js?v=11"></script>
+</body>
+</html>
